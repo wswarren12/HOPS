@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4731881DD8CCD8009B3418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4731871DD8CCD8009B3418 /* AppDelegate.swift */; };
+		CE47318F1DD8CCD8009B3418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE47318E1DD8CCD8009B3418 /* Assets.xcassets */; };
+		CE47319D1DD8CCD8009B3418 /* HopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE47319C1DD8CCD8009B3418 /* HopsTests.swift */; };
+		CE4731A81DD8CCD8009B3418 /* HopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4731A71DD8CCD8009B3418 /* HopsUITests.swift */; };
+		CE4731B81DD8CD4B009B3418 /* HPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4731B71DD8CD4B009B3418 /* HPViewController.swift */; };
+		CE4731BA1DD8CD60009B3418 /* HPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4731B91DD8CD60009B3418 /* HPLoginViewController.swift */; };
+		CE4731BD1DD8D061009B3418 /* HPWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4731BC1DD8D061009B3418 /* HPWelcomeViewController.swift */; };
+		CE4731BF1DD8DA38009B3418 /* HPSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4731BE1DD8DA38009B3418 /* HPSignupViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE4731991DD8CCD8009B3418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE47317C1DD8CCD7009B3418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4731831DD8CCD7009B3418;
+			remoteInfo = Hops;
+		};
+		CE4731A41DD8CCD8009B3418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE47317C1DD8CCD7009B3418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE4731831DD8CCD7009B3418;
+			remoteInfo = Hops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE4731841DD8CCD8009B3418 /* Hops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4731871DD8CCD8009B3418 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE47318E1DD8CCD8009B3418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE4731931DD8CCD8009B3418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4731981DD8CCD8009B3418 /* HopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE47319C1DD8CCD8009B3418 /* HopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopsTests.swift; sourceTree = "<group>"; };
+		CE47319E1DD8CCD8009B3418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4731A31DD8CCD8009B3418 /* HopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4731A71DD8CCD8009B3418 /* HopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopsUITests.swift; sourceTree = "<group>"; };
+		CE4731A91DD8CCD8009B3418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4731B71DD8CD4B009B3418 /* HPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPViewController.swift; sourceTree = "<group>"; };
+		CE4731B91DD8CD60009B3418 /* HPLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPLoginViewController.swift; sourceTree = "<group>"; };
+		CE4731BC1DD8D061009B3418 /* HPWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPWelcomeViewController.swift; sourceTree = "<group>"; };
+		CE4731BE1DD8DA38009B3418 /* HPSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPSignupViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE4731811DD8CCD7009B3418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4731951DD8CCD8009B3418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4731A01DD8CCD8009B3418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE47317B1DD8CCD7009B3418 = {
+			isa = PBXGroup;
+			children = (
+				CE4731861DD8CCD8009B3418 /* Hops */,
+				CE47319B1DD8CCD8009B3418 /* HopsTests */,
+				CE4731A61DD8CCD8009B3418 /* HopsUITests */,
+				CE4731851DD8CCD8009B3418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE4731851DD8CCD8009B3418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE4731841DD8CCD8009B3418 /* Hops.app */,
+				CE4731981DD8CCD8009B3418 /* HopsTests.xctest */,
+				CE4731A31DD8CCD8009B3418 /* HopsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE4731861DD8CCD8009B3418 /* Hops */ = {
+			isa = PBXGroup;
+			children = (
+				CE4731B61DD8CD22009B3418 /* BaseClasses */,
+				CE4731871DD8CCD8009B3418 /* AppDelegate.swift */,
+				CE4731B51DD8CD16009B3418 /* ViewControllers */,
+				CE47318E1DD8CCD8009B3418 /* Assets.xcassets */,
+				CE4731931DD8CCD8009B3418 /* Info.plist */,
+			);
+			path = Hops;
+			sourceTree = "<group>";
+		};
+		CE47319B1DD8CCD8009B3418 /* HopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE47319C1DD8CCD8009B3418 /* HopsTests.swift */,
+				CE47319E1DD8CCD8009B3418 /* Info.plist */,
+			);
+			path = HopsTests;
+			sourceTree = "<group>";
+		};
+		CE4731A61DD8CCD8009B3418 /* HopsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE4731A71DD8CCD8009B3418 /* HopsUITests.swift */,
+				CE4731A91DD8CCD8009B3418 /* Info.plist */,
+			);
+			path = HopsUITests;
+			sourceTree = "<group>";
+		};
+		CE4731B51DD8CD16009B3418 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE4731BB1DD8D02A009B3418 /* AuthVcs */,
+				CE4731BC1DD8D061009B3418 /* HPWelcomeViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE4731B61DD8CD22009B3418 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CE4731B71DD8CD4B009B3418 /* HPViewController.swift */,
+			);
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		CE4731BB1DD8D02A009B3418 /* AuthVcs */ = {
+			isa = PBXGroup;
+			children = (
+				CE4731B91DD8CD60009B3418 /* HPLoginViewController.swift */,
+				CE4731BE1DD8DA38009B3418 /* HPSignupViewController.swift */,
+			);
+			name = AuthVcs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE4731831DD8CCD7009B3418 /* Hops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4731AC1DD8CCD8009B3418 /* Build configuration list for PBXNativeTarget "Hops" */;
+			buildPhases = (
+				CE4731801DD8CCD7009B3418 /* Sources */,
+				CE4731811DD8CCD7009B3418 /* Frameworks */,
+				CE4731821DD8CCD7009B3418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hops;
+			productName = Hops;
+			productReference = CE4731841DD8CCD8009B3418 /* Hops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE4731971DD8CCD8009B3418 /* HopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4731AF1DD8CCD8009B3418 /* Build configuration list for PBXNativeTarget "HopsTests" */;
+			buildPhases = (
+				CE4731941DD8CCD8009B3418 /* Sources */,
+				CE4731951DD8CCD8009B3418 /* Frameworks */,
+				CE4731961DD8CCD8009B3418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE47319A1DD8CCD8009B3418 /* PBXTargetDependency */,
+			);
+			name = HopsTests;
+			productName = HopsTests;
+			productReference = CE4731981DD8CCD8009B3418 /* HopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE4731A21DD8CCD8009B3418 /* HopsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE4731B21DD8CCD8009B3418 /* Build configuration list for PBXNativeTarget "HopsUITests" */;
+			buildPhases = (
+				CE47319F1DD8CCD8009B3418 /* Sources */,
+				CE4731A01DD8CCD8009B3418 /* Frameworks */,
+				CE4731A11DD8CCD8009B3418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE4731A51DD8CCD8009B3418 /* PBXTargetDependency */,
+			);
+			name = HopsUITests;
+			productName = HopsUITests;
+			productReference = CE4731A31DD8CCD8009B3418 /* HopsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE47317C1DD8CCD7009B3418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "William S. Warren";
+				TargetAttributes = {
+					CE4731831DD8CCD7009B3418 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QUQHB837BZ;
+						ProvisioningStyle = Automatic;
+					};
+					CE4731971DD8CCD8009B3418 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QUQHB837BZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE4731831DD8CCD7009B3418;
+					};
+					CE4731A21DD8CCD8009B3418 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = QUQHB837BZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE4731831DD8CCD7009B3418;
+					};
+				};
+			};
+			buildConfigurationList = CE47317F1DD8CCD7009B3418 /* Build configuration list for PBXProject "Hops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE47317B1DD8CCD7009B3418;
+			productRefGroup = CE4731851DD8CCD8009B3418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE4731831DD8CCD7009B3418 /* Hops */,
+				CE4731971DD8CCD8009B3418 /* HopsTests */,
+				CE4731A21DD8CCD8009B3418 /* HopsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4731821DD8CCD7009B3418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE47318F1DD8CCD8009B3418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4731961DD8CCD8009B3418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4731A11DD8CCD8009B3418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE4731801DD8CCD7009B3418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4731BA1DD8CD60009B3418 /* HPLoginViewController.swift in Sources */,
+				CE4731B81DD8CD4B009B3418 /* HPViewController.swift in Sources */,
+				CE4731881DD8CCD8009B3418 /* AppDelegate.swift in Sources */,
+				CE4731BD1DD8D061009B3418 /* HPWelcomeViewController.swift in Sources */,
+				CE4731BF1DD8DA38009B3418 /* HPSignupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4731941DD8CCD8009B3418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE47319D1DD8CCD8009B3418 /* HopsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE47319F1DD8CCD8009B3418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4731A81DD8CCD8009B3418 /* HopsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE47319A1DD8CCD8009B3418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4731831DD8CCD7009B3418 /* Hops */;
+			targetProxy = CE4731991DD8CCD8009B3418 /* PBXContainerItemProxy */;
+		};
+		CE4731A51DD8CCD8009B3418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE4731831DD8CCD7009B3418 /* Hops */;
+			targetProxy = CE4731A41DD8CCD8009B3418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE4731AA1DD8CCD8009B3418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE4731AB1DD8CCD8009B3418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE4731AD1DD8CCD8009B3418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QUQHB837BZ;
+				INFOPLIST_FILE = Hops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.billwarrenish.Hops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE4731AE1DD8CCD8009B3418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QUQHB837BZ;
+				INFOPLIST_FILE = Hops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.billwarrenish.Hops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE4731B01DD8CCD8009B3418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QUQHB837BZ;
+				INFOPLIST_FILE = HopsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.billwarrenish.HopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hops.app/Hops";
+			};
+			name = Debug;
+		};
+		CE4731B11DD8CCD8009B3418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QUQHB837BZ;
+				INFOPLIST_FILE = HopsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.billwarrenish.HopsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hops.app/Hops";
+			};
+			name = Release;
+		};
+		CE4731B31DD8CCD8009B3418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QUQHB837BZ;
+				INFOPLIST_FILE = HopsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.billwarrenish.HopsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hops;
+			};
+			name = Debug;
+		};
+		CE4731B41DD8CCD8009B3418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QUQHB837BZ;
+				INFOPLIST_FILE = HopsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.billwarrenish.HopsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hops;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE47317F1DD8CCD7009B3418 /* Build configuration list for PBXProject "Hops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4731AA1DD8CCD8009B3418 /* Debug */,
+				CE4731AB1DD8CCD8009B3418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE4731AC1DD8CCD8009B3418 /* Build configuration list for PBXNativeTarget "Hops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4731AD1DD8CCD8009B3418 /* Debug */,
+				CE4731AE1DD8CCD8009B3418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE4731AF1DD8CCD8009B3418 /* Build configuration list for PBXNativeTarget "HopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4731B01DD8CCD8009B3418 /* Debug */,
+				CE4731B11DD8CCD8009B3418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE4731B21DD8CCD8009B3418 /* Build configuration list for PBXNativeTarget "HopsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4731B31DD8CCD8009B3418 /* Debug */,
+				CE4731B41DD8CCD8009B3418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE47317C1DD8CCD7009B3418 /* Project object */;
+}
